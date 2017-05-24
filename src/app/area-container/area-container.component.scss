@@ -1,0 +1,15 @@
+.area-listing {
+   position: relative;
+   width: 30%;
+   height: 100%;
+   overflow-y: auto;
+   overflow-x: hidden;
+   //background-color: lawngreen;
+}
+
+.map-container {
+   position: relative;
+   width: 70%;
+   height: 100%;
+   background-color: lightgrey;
+}

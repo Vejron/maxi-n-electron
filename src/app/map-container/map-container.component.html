@@ -1,0 +1,16 @@
+<div id="gmap"></div>
+<!--app-map-view [options]="options" (onMapReady)="setMap($event)">
+</app-map-view-->
+<section class="g-panel top-right">
+  <app-machine-layer></app-machine-layer>
+  <div class="g-divider"></div>
+  <app-production-layer [map]="map" [area]="area" [threeLayer]="threeLayer"></app-production-layer>
+  <div class="g-divider"></div>
+  <app-map-rt [map]="map" [area]="area"></app-map-rt>
+</section>
+
+<section class="g-panel top-left">
+  <app-notification-layer [map]="map"></app-notification-layer>
+  <app-shape-layer [map]="map"></app-shape-layer>
+</section>
+
